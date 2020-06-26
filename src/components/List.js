@@ -47,6 +47,7 @@ function List() {
 <Card style={{margin:"8px"}}>
 <Card.Body>
             <div style={{display:"flex",justifyContent:"flex-end"}}><input type="text" placeholder="Search 🔍" id="inputSearch" onChange={e=>setItem(e.target.value)} style={{padding:"2px", marginBottom:"10px"}}/></div>
+            <div className="table-responsive">
             <Table striped="true" bordered hover size="sm" >
             <thead>
             <tr key="table1">
@@ -63,6 +64,7 @@ function List() {
             {jsonbody}
         </tbody>
     </Table>
+            </div>
     <p>Showing results from {index} to {index+10}</p>
 <div style={{display:"flex",justifyContent:"flex-end"}}>
 <div width="10rem">

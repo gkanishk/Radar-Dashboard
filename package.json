@@ -1,5 +1,5 @@
 {
-  "name": "rockcoffer",
+  "name": "radar-chart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,5 +35,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "guppy": {
+    "id": "f2cdb8b0-ae95-11ea-9f53-5fabd5b0f1e1",
+    "name": "Radar Chart",
+    "type": "create-react-app",
+    "color": "#00C853",
+    "icon": "./static/media/icon_teeth.0fe4500f.jpg",
+    "createdAt": 1592176963520
   }
 }

@@ -83,7 +83,7 @@ function NChart() {
         setNodeData(ndata);
     }
     return (
-    <Card style={{margin:"8px"}}>
+    <Card body style={{margin:"8px"}}>
         <Card.Header as="h4">Radar Chart 📊 using React.js</Card.Header>
         <Card.Body>
         <div style={{display:"flex",flexDirection:"row"}}>
@@ -99,7 +99,9 @@ function NChart() {
             },
             }}
         />}</div>
-<div style={{display:"flex",flexDirection:"column",width:"20%"}}>
+
+        </div>
+        <div style={{display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
 <select onChange={e=>setOption(e.target.value)} multiple={true} className="form-control" style={{width:"15rem",padding:"5px",margin:"5px"}} searchable="Search here..">
             <option value="intensity" disabled>Choose your value</option>
             <option value="intensity">Intensity</option>
@@ -108,7 +110,6 @@ function NChart() {
         </select>
 {nodeData&&<NodeCard data={nodeData}/>}
 </div>
-        </div>
             </Card.Body>
     </Card>
     )
