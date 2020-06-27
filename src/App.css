@@ -2,6 +2,11 @@
   text-align: center;
   
 }
+@media screen and (max-width: 600px) {
+  #cardText {
+    font-size: 2vw;
+  }
+}
 
 /* .App-logo {
   height: 40vmin;

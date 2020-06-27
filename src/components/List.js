@@ -24,7 +24,7 @@ function List() {
         const filter=()=>{
             const fdata=[...Data];
             const data=fdata.filter(datas=>{
-                if(datas.title.toLowerCase().includes(item))
+                if(datas.title.toLowerCase().includes(item.toLowerCase()))
                 return datas
             });
             setSearchdata(data);
