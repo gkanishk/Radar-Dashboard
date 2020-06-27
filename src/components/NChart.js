@@ -102,7 +102,7 @@ function NChart() {
 
         </div>
         <div style={{display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
-<select onChange={e=>setOption(e.target.value)} multiple={true} className="form-control" style={{width:"15rem",padding:"5px",margin:"5px"}} searchable="Search here..">
+<select onChange={e=>setOption(e.target.value)} multiple={true} className="form-control" style={{width:"200px",height:"170px",padding:"5px",margin:"5px"}} searchable="Search here..">
             <option value="intensity" disabled>Choose your value</option>
             <option value="intensity">Intensity</option>
             <option value="likelihood">Likelihood</option>
