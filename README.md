@@ -4,7 +4,7 @@
      <a href="https://app.netlify.com/sites/gkanishk-chart/deploys" align="center"><img src="https://api.netlify.com/api/v1/badges/382a6f81-7b62-49ed-844f-eefd1382c435/deploy-status" alt="Netlify Status"></a></h1>
 </p>
 
-**I am weak in maths so I am unable to find the right coordinates for my square shape please help me find them. Hocus Focus is a game in which you need to find coordinates for the shape to match with the original value.**
+**This is a react powered application that I made to brushup my skills in states and props using React-Hooks we can add filters to the radar chart search realtime values and get details of the chart node.**
 
 ### Live:
    - ![demo](/public/radar.gif)
